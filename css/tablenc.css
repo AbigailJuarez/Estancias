@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #ecf0f1;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="submit"]{
+    position: relative;
+    top: 12em;
+    left: 80em;
+    background: #034dd6;
+    color: #ecf0f1;
+    border-bottom: 2px solid #095dfa;
+    font-family: 'Montserrat', sans-serif;
+    width: 16%;
+    font-size: 13px;
+    margin: 10px 8px 0;
+}
+input[type=submit]:active,
+input[type=submit]:focus {
+    background: #095dfa59;
+    color: #ecf0f1;
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+/*Nav-Bar*/
+.nav{
+    position: absolute;
+    top: 0em;
+    width: -moz-available;
+    background:#1a3874; 
+    right: -18em;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu >li>a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #575555;
+    transition: 0.3s all;
+}
+
+/*submenu*/
+.sub-nav{
+    position: absolute;
+    background: #1a3874;
+    width: 170%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+}
+
+.sub-nav li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .sub-nav{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tabla*/
+th{
+    font-size: 13px;     
+    font-weight: normal;     
+    padding: 8px;     
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039;
+}
+td{
+    padding: 8px;     
+    background: #e8edff;     
+    border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent;
+}
+table{
+    font-family: 'Montserrat';
+    font-size: 12px;    
+    margin: 45px;     
+    width: 480px; 
+    text-align: left;    
+    border-collapse: collapse; 
+    position: absolute;
+    top: 13em;
+    left: 35em;
+}
+h1{
+    position: absolute;
+    left: 10em;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    top: 2em;
+}
+tr:hover td { 
+    background: #d0dafd; color: #339; 
+}

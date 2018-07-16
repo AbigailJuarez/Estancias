@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>| Carros Semi-Nuevos |</title>
+    <link rel="stylesheet" href="../Mi-Cotizador2/css/semi-car.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">  
+</head>
+<body>
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="#">Mi Cotizador</a>
+            <ul class="sub-nav">
+            <li><a href="#">Carros Nuevos</a></li>
+            <li><a href="#">Carros Semi-Nuevos</a></li>
+            <li><a href="#">Agregar Carro Nuevo</a></li>
+            <li><a href="#">Agregar Carro Semi-Nuevo</a></li>
+            <li><a href="#">Clientes</a></li>
+            </ul>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span>Salir</a></li> 
+        </ul>
+    </nav>
+    <div id="car">
+        <h2>Carros Semi-Nuevos</h2>
+        <input type="text" name="model" id="model" placeholder="Modelo" required/>
+        <select name="marc">
+            <option value="1">--Marca--</option> 
+            <option value="2">Honda</option> 
+            <option value="3">Nissan</option> 
+            <option value="4">Volkswagen</option>
+            <option value="5">Ford</option> 
+            <option value="6">GMC</option> 
+            <option value="7">Jeep</option> 
+        </select>
+        <input type="text" name="version" id="version" placeholder="Versión" required/>
+        <input type="text" name="year" id="year" placeholder="Año" required/>
+        <input type="text" name="km" id="km" placeholder="Kilometraje" required/>
+        <input type="text" name="precio" id="precio" placeholder="Precio" required/>
+        <select name="type">
+            <option value="1">--Tipo de Auto--</option> 
+            <option value="2">Hatchback</option> 
+            <option value="3">Pick up</option> 
+            <option value="4">SUV</option>
+            <option value="5">Sedan</option> 
+            <option value="5">#</option> 
+            <option value="7">#</option> 
+        </select>
+        <select name="tittle">
+            <option value="1">--Título--</option> 
+            <option value="2">Nacional</option>
+            <option value="2">Extranjero</option>
+        </select>
+        <select name="transmition">
+            <option value="1">--Transmisión--</option> 
+            <option value="2">Manual</option>
+            <option value="2">Automático</option>
+        </select>     
+        <input type="submit" name="submit" id="submit" value="Agregar Auto Semi-Nuevo">
+    </div>
+</body>
+</html>
